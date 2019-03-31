@@ -1,27 +1,13 @@
-# Exam
+- Change the primary and accent colours of the theme
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
+- Change the not found page so that the url shows up in a different path. 
 
-## Development server
+- Without editing the HTML, make the buttons in the counter component work. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Without deleting anything from the HTML, use a custom pipe to draw an asterisk () based on the value of counter. For every 5 in the value of the counter you should print one asterisk. So if the counter equaled 0 thru 4, there would be no stars. If counter was 10 thru 14 you would see one star. 
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Add a new component and service that get and display a random dad joke from https://icanhazdadjoke.com/api#fetch-a-random-dad-joke 
+  - You will need to add a header to you request. This link is one of many that will explain how to do it. https://www.concretepage.com/angular-2/angular-2-http-get-parameters-headers-urlsearchparams-requestoptions-example#headers
+  - You will make the get request from https://icanhazdadjoke.com/ with the headers set right. 
+ 
+ - Add a routerLink and path to your new component in the sidebar and ensure that the joke will reload every time that link is clicked.
