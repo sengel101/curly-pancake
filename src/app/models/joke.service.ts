@@ -5,6 +5,9 @@ import {Observable} from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
+
+// Runs the RandomJoke function to call the Random Joke API
+
 export class JokeService {
 
   constructor(private http: HttpClient) {}
