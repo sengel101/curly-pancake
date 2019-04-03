@@ -10,7 +10,8 @@ import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, Mat
 import { HomeComponent } from './views/home/home.component';
 import { NotFoundComponent } from './views/not-found/not-found.component';
 import { CounterComponent } from './views/counter/counter.component';
-import { StarPipe } from './star.pipe';
+import { StarPipe } from './controllers/star.pipe';
+import { JokeComponent } from './views/joke/joke.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { StarPipe } from './star.pipe';
     HomeComponent,
     NotFoundComponent,
     CounterComponent,
-    StarPipe
+    StarPipe,
+    JokeComponent
   ],
   imports: [
     BrowserModule,
